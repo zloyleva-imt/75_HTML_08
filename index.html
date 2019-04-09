@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,900" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar">
+            <div class="navbar-main">
+                <a class="navbar-logo" href="/">Logo</a>
+            
+                <button class="navbar-toggler" id="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <ul class="navbar-menu" id="navbar-menu">
+                <li class="navbar-menu-item"><a class="nav-link" href="">Home</a></li>
+                <li class="navbar-menu-item"><a class="nav-link" href="">Catalog</a></li>
+                <li class="navbar-menu-item"><a class="nav-link" href="">How to buy?</a></li>
+                <li class="navbar-menu-item"><a class="nav-link" href="">About us</a></li>
+                <li class="navbar-menu-item"><a class="nav-link" href="">Contacts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+
+    <script>
+    
+        document.getElementById("navbar-toggler").addEventListener("click", ()=>{
+            console.log("Click");
+            document.getElementById("navbar-menu").classList.toggle("show");
+        });
+    
+    </script>
+
+</body>
+</html>
